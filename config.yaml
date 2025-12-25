@@ -1,2 +1,2 @@
-path: "melu_model.joblib
+path: "melu_model.joblib"
 features: ['MDVP:Fo(Hz)', 'MDVP:Jitter(%)']
