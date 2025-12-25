@@ -36,7 +36,3 @@ from sklearn.metrics import accuracy_score
 y_predict = model.predict(x_test)
 accuracy = accuracy_score(y_test, y_predict)
 print(f"Accuracy: {accuracy}")
-
-import joblib
-
-joblib.dump(model, 'melu_model.joblib')
